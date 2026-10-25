@@ -72,4 +72,4 @@ def get_candles_full(symbol):
                     'c': closes[i], 'h': highs[i], 'l': lows[i],
                     'v': volumes[i] if volumes and volumes[i] else 1000
                 })
-        return data[-100:] # 100 шамъи
+        return data[-100:] # 
