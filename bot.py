@@ -36,5 +36,5 @@ def is_market_closed():
         return True, "Juma shab"
     return False, "Kushoda"
 
-def get_price(symbol):
+def 
    
